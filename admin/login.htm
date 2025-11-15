@@ -145,13 +145,14 @@ input:focus{
 
     <div class="footer-links">
       Este é um protótipo acadêmico. Qualquer usuário/senha levará ao painel.<br>
-      Voltar para o site do serviço: <a href="../index.html">OFEBAS • Mural de Homenagens</a>
-    </div>
+      Voltar para o site do serviço: <a href="/index.html">OFEBAS • Mural de Homenagens</a>
+      </div>
   </div>
 </div>
 
 <script>
 document.getElementById('btnLogin').addEventListener('click',()=>{
+  // Este link relativo está correto (admin/login.htm -> admin/index.html)
   window.location.href = 'index.html';
 });
 </script>

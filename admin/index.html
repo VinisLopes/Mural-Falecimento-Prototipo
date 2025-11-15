@@ -342,22 +342,19 @@ body{
   </div>
 
   <nav class="header-links">
-    <a href="../index.html">Site do serviço</a>
+    <a href="/index.html">Site do serviço</a>
     <a href="#" id="abrirTVTopo">Abrir modo TV</a>
   </nav>
 </header>
 
-<!-- GRID PRINCIPAL -->
 <div class="panel-grid">
 
-  <!-- VELÓRIOS DO DIA -->
   <section class="card">
     <h2>Velórios do dia</h2>
     <div class="card-sub">
       Lista de velórios com murais criados pela família. A equipe pode revisar o conteúdo e enviar o mural para a TV da sala correspondente.
     </div>
 
-    <!-- filtros -->
     <div class="filters">
       <div class="filters-left">
         <label for="search">Buscar:</label>
@@ -375,7 +372,6 @@ body{
       </div>
     </div>
 
-    <!-- tabela -->
     <div class="table-wrapper">
       <table class="table" id="tabelaVelorios">
         <thead>
@@ -455,7 +451,6 @@ body{
     </div>
   </section>
 
-  <!-- COMO FUNCIONA -->
   <aside class="info-card">
     <span class="info-badge">
       ℹ Visão geral do painel
@@ -476,11 +471,17 @@ body{
 
 <script>
 /* Navegação: SEM nova aba, sempre na mesma */
+
+/* ================== 2. LINK ATUALIZADO ================== */
 function abrirTV(){
-  window.location = "../public/memorial.html";
+  /* Corrigido de "../public/memorial.html" para "/memorial.html" */
+  window.location = "/memorial.html";
 }
+
+/* ================== 3. LINK ATUALIZADO ================== */
 function abrirMuralFamilia(){
-  window.location = "../memorias/clientes/index.html";
+  /* Corrigido de "../memorias/clientes/index.html" para "/memorias/clientes/index.html" */
+  window.location = "/memorias/clientes/index.html";
 }
 
 /* botão do topo */
